@@ -57,6 +57,7 @@ sys_repo_prepare_dir_and_clone_file () {
 	local the_desktop_name
 	local the_first_level_dir_path
 	local the_second_level_dir_path
+	local the_second_level_dir_name
 
 	for the_theme_name in ${theme_list}; do
 		#echo "${the_theme_name}"
@@ -70,12 +71,18 @@ sys_repo_prepare_dir_and_clone_file () {
 
 		for the_desktop_name in ${desktop_list}; do
 
-			the_second_level_dir_path="${the_first_level_dir_path}/${prefix_name}-${the_desktop_name}-${the_theme_name}"
+			the_second_level_dir_name="${prefix_name}-${the_desktop_name}-${the_theme_name}"
+			the_second_level_dir_path="${the_first_level_dir_path}/${the_second_level_dir_name}"
 
 			echo
 			echo mkdir -p "${the_second_level_dir_path}"
 			echo
 			mkdir -p "${the_second_level_dir_path}"
+
+			echo
+			echo "create file: ${the_second_level_dir_path}/clone.sh"
+			echo
+			util_repo_create_clone_script_file "${the_second_level_dir_name}" "${the_second_level_dir_path}/clone.sh"
 
 		done
 	done
