@@ -356,6 +356,25 @@ base_var_init () {
 	REF_DISTRO_DIST_DIR_PATH="${REF_SUIT_DIR_PATH}/${REF_DISTRO_DIST_DIR_NAME}"
 
 
+
+
+	##
+	############################################################################
+	##
+
+
+
+
+	##
+	## ## Work Dir
+	##
+
+	DEFAULT_WORK_DIR_PATH="${HOME}/iso-builder/by-theme"
+	REF_WORK_DIR_PATH="${REF_WORK_DIR_PATH:=$DEFAULT_WORK_DIR_PATH}"
+
+
+
+
 	##
 	## ## Entity Args
 	##
@@ -370,7 +389,6 @@ base_var_init () {
 
 
 	return 0
-
 }
 
 base_var_dump () {
@@ -759,6 +777,28 @@ base_var_dump () {
 	util_debug_echo "REF_DISTRO_DIST_DIR_NAME=${REF_DISTRO_DIST_DIR_NAME}"
 	util_debug_echo "REF_DISTRO_DIST_DIR_PATH=${REF_DISTRO_DIST_DIR_PATH}"
 	util_debug_echo
+
+
+
+
+	##
+	############################################################################
+	##
+
+
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Work Dir"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "DEFAULT_WORK_DIR_PATH=${DEFAULT_WORK_DIR_PATH}"
+	util_debug_echo "REF_WORK_DIR_PATH=${REF_WORK_DIR_PATH}"
+	util_debug_echo
+
+
 
 
 	util_debug_echo

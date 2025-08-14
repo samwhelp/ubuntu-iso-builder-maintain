@@ -1,6 +1,15 @@
 
 
 ##
+## ## REF_WORK_DIR_PATH
+##
+
+REF_WORK_DIR_PATH="${HOME}/iso-builder/by-theme"
+
+
+
+
+##
 ## ## REF_ENTITY_THEME_LIST
 ##
 
