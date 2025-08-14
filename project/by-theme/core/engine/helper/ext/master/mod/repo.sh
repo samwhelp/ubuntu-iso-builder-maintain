@@ -6,13 +6,7 @@
 
 mod_repo_clone_all () {
 
-	#sys_repo_prepare_dir
-
-	sys_repo_prepare_dir_and_clone_file
-
-	#util_repo_create_clone_script_content "test"
-
-	#util_repo_create_clone_script_file "teat" "/tmp/clone.sh"
+	sys_repo_prepare_dir_and_clone_file_and_clone_repo
 
 	return 0
 }
