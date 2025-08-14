@@ -654,7 +654,9 @@ sys_repo_commit_and_push_all () {
 			echo
 			echo "git push: ${the_second_level_dir_path}/${the_second_level_dir_name}-main"
 			echo
-			git add . --all; git commit -a -m 'fix'; git push;
+			git add . --all
+			git commit -a -m 'fix'
+			git push
 
 			cd "${OLDPWD}"
 
@@ -666,7 +668,9 @@ sys_repo_commit_and_push_all () {
 			echo
 			echo "git push: ${the_second_level_dir_path}/${the_second_level_dir_name}-gh-pages"
 			echo
-			git add . --all; git commit -a -m 'fix'; git push;
+			git add . --all
+			git commit -a -m 'fix'
+			git push
 
 			cd "${OLDPWD}"
 
@@ -729,7 +733,9 @@ sys_repo_commit_and_push_main () {
 			echo
 			echo "git push: ${the_second_level_dir_path}/${the_second_level_dir_name}-main"
 			echo
-			git add . --all; git commit -a -m 'fix'; git push;
+			git add . --all
+			git commit -a -m 'fix'
+			git push
 
 			cd "${OLDPWD}"
 
@@ -792,7 +798,9 @@ sys_repo_commit_and_push_gh_page () {
 			echo
 			echo "git push: ${the_second_level_dir_path}/${the_second_level_dir_name}-gh-pages"
 			echo
-			git add . --all; git commit -a -m 'fix'; git push;
+			git add . --all
+			git commit -a -m 'fix'
+			git push
 
 			cd "${OLDPWD}"
 
