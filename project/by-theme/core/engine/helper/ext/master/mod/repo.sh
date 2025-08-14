@@ -6,6 +6,8 @@
 
 mod_repo_clone_all () {
 
+	sys_repo_prepare_dir
+
 
 	return 0
 }
