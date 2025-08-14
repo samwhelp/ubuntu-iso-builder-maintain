@@ -14,11 +14,13 @@ mod_repo_clone_all () {
 mod_repo_push_all () {
 
 
+
 	return 0
 }
 
 mod_repo_pull_all () {
 
+	sys_repo_pull_all
 
 	return 0
 }
