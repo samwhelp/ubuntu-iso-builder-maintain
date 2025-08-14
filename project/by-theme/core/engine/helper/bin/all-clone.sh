@@ -8,7 +8,7 @@
 ##
 ## ## Link
 ##
-## * https://github.com/samwhelp/skel-project-plan/blob/master/develop/sh/project-helper/basic/helper/bin/all_clone.sh
+## * https://github.com/samwhelp/skel-project-plan/blob/master/develop/sh/project-helper/basic/helper/bin/prepare.sh
 ##
 
 ##

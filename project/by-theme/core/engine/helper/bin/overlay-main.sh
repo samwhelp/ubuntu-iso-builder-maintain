@@ -44,14 +44,14 @@ REF_INIT_DIR_PATH="${REF_BASE_DIR_PATH}/../ext"
 
 
 ################################################################################
-### Head: Portal / portal_all_pull
+### Head: Portal / portal_overlay_main
 ##
 
-portal_all_pull () {
+portal_overlay_main () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## portal_all_pull"
+	util_error_echo "## ## portal_overlay_main"
 	util_error_echo "##"
 	util_error_echo
 
@@ -65,7 +65,7 @@ portal_all_pull () {
 
 
 
-	mod_repo_pull_all
+	mod_repo_main_overlay
 
 
 
@@ -74,7 +74,7 @@ portal_all_pull () {
 }
 
 ##
-### Tail: Portal / portal_all_pull
+### Tail: Portal / portal_overlay_main
 ################################################################################
 
 
@@ -84,7 +84,7 @@ portal_all_pull () {
 
 __main__ () {
 
-	portal_all_pull "${@}"
+	portal_overlay_main "${@}"
 
 }
 
