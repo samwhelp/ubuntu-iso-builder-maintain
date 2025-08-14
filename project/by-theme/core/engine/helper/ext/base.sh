@@ -366,6 +366,16 @@ base_var_init () {
 
 
 	##
+	## ## Repo
+	##
+
+	DEFAULT_REPO_PREFIX_NAME="ubuntu-iso-builder-import-pacstall"
+	REF_REPO_PREFIX_NAME="${REF_REPO_PREFIX_NAME:=$DEFAULT_REPO_PREFIX_NAME}"
+
+
+
+
+	##
 	## ## Work Dir
 	##
 
@@ -784,6 +794,19 @@ base_var_dump () {
 	##
 	############################################################################
 	##
+
+
+
+
+	util_debug_echo
+	util_debug_echo "##"
+	util_debug_echo "## ## Repo"
+	util_debug_echo "##"
+	util_debug_echo
+
+	util_debug_echo "DEFAULT_REPO_PREFIX_NAME=${DEFAULT_REPO_PREFIX_NAME}"
+	util_debug_echo "REF_REPO_PREFIX_NAME=${REF_REPO_PREFIX_NAME}"
+	util_debug_echo
 
 
 

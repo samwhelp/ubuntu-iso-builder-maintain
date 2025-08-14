@@ -6,7 +6,7 @@
 
 sys_repo_prepare_dir () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -54,7 +54,7 @@ sys_repo_prepare_dir () {
 
 sys_repo_prepare_dir_and_clone_file () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -107,7 +107,7 @@ sys_repo_prepare_dir_and_clone_file () {
 
 sys_repo_prepare_dir_and_clone_file_and_clone_repo () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -182,7 +182,7 @@ sys_repo_prepare_dir_and_clone_file_and_clone_repo () {
 
 sys_repo_pull_all () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -257,7 +257,7 @@ sys_repo_pull_all () {
 
 sys_repo_pull_main () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -320,7 +320,7 @@ sys_repo_pull_main () {
 
 sys_repo_pull_gh_page () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -394,7 +394,7 @@ sys_repo_pull_gh_page () {
 
 sys_repo_push_all () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -469,7 +469,7 @@ sys_repo_push_all () {
 
 sys_repo_push_main () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -532,7 +532,7 @@ sys_repo_push_main () {
 
 sys_repo_push_gh_page () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -607,7 +607,7 @@ sys_repo_push_gh_page () {
 
 sys_repo_commit_and_push_all () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -686,7 +686,7 @@ sys_repo_commit_and_push_all () {
 
 sys_repo_commit_and_push_main () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"
@@ -751,7 +751,7 @@ sys_repo_commit_and_push_main () {
 
 sys_repo_commit_and_push_gh_page () {
 
-	local prefix_name="ubuntu-iso-builder-import-pacstall"
+	local prefix_name="${REF_REPO_PREFIX_NAME}"
 	local work_dir_path="${REF_WORK_DIR_PATH}"
 	local theme_list="${REF_ENTITY_THEME_LIST}"
 	local desktop_list="${REF_ENTITY_DESKTOP_LIST}"

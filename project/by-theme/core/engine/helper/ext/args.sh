@@ -40,6 +40,10 @@ args_var_dump () {
 	util_debug_echo
 
 
+	util_debug_echo "REF_WORK_DIR_PATH=${REF_WORK_DIR_PATH}"
+	util_debug_echo
+
+
 	util_debug_echo "REF_ENTITY_THEME_LIST=${REF_ENTITY_THEME_LIST}"
 	util_debug_echo "REF_ENTITY_DESKTOP_LIST=${REF_ENTITY_DESKTOP_LIST}"
 	util_debug_echo
