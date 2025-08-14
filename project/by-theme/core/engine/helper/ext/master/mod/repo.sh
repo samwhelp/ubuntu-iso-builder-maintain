@@ -13,7 +13,7 @@ mod_repo_clone_all () {
 
 mod_repo_push_all () {
 
-
+	sys_repo_push_all
 
 	return 0
 }
