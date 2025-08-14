@@ -65,7 +65,7 @@ portal_overlay_main () {
 
 
 
-	mod_repo_main_overlay
+	mod_repo_overlay_main
 
 
 
