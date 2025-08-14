@@ -223,6 +223,8 @@ sys_repo_pull_all () {
 			mkdir -p "${the_second_level_dir_path}"
 
 
+
+
 			cd "${the_second_level_dir_path}/${the_second_level_dir_name}-main"
 
 			echo
@@ -231,6 +233,21 @@ sys_repo_pull_all () {
 			git pull
 
 			cd "${OLDPWD}"
+
+
+
+
+			cd "${the_second_level_dir_path}/${the_second_level_dir_name}-gh-page"
+
+			echo
+			echo "git pull: ${the_second_level_dir_path}/${the_second_level_dir_name}-gh-page"
+			echo
+			git pull
+
+			cd "${OLDPWD}"
+
+
+
 
 		done
 	done
