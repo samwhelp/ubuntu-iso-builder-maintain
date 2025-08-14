@@ -48,6 +48,19 @@ __EOF__
 	return 0
 }
 
+util_repo_create_clone_script_file () {
+
+	local repo_name="${1}"
+
+	local script_file_path="${2}"
+
+	#util_repo_create_clone_script_content "${repo_name}" | tee "${script_file_path}"
+
+	util_repo_create_clone_script_content "${repo_name}" > "${script_file_path}"
+
+	#chmod 755 "${script_file_path}"
+}
+
 ##
 ### Tail: Master / Util / Repo
 ################################################################################
