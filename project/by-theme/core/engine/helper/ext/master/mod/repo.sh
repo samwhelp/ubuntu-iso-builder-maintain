@@ -38,6 +38,15 @@ mod_repo_pull_all () {
 ### Head: Master / Mod / Repo / main
 ##
 
+mod_repo_push_main () {
+
+	#sys_repo_push_main
+
+	sys_repo_commit_and_push_main
+
+	return 0
+}
+
 mod_repo_overlay_main () {
 
 	sys_repo_overlay_main
